@@ -21,6 +21,6 @@ Scoreboards are saved in browser session, so they will not be kept.
 
 ## Credits
 Icons are made by:
-- ![icons](https://www.flaticon.com/authors/smashicons)
-- ![icons](https://www.flaticon.com/authors/adib-sulthon)
-- ![icons](https://www.flaticon.com/authors/freepik)
+- https://www.flaticon.com/authors/smashicons
+- https://www.flaticon.com/authors/adib-sulthon
+- https://www.flaticon.com/authors/freepik
