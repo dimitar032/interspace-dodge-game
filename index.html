@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Interspace Dodge</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body class="game-menu">
+    <div class="game-menu-screen">
+        <h1>Interspace Dodge</h1>
+        <form name="registerPlayerForm" id="registerPlayerForm" action="/game.html" onsubmit="return validateForm()"
+            method="get">
+            Player Name: <input type="text" minlength="2" maxlength="40" name="playerName">
+        </form>
+        <button type="submit" form="registerPlayerForm" class="button" value="Submit">Start game</button>
+        
+        <div id="credits-section">
+            <h3>Credits:</h3>
+            <p>
+                <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons"
+                        title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">
+                        www.flaticon.com</a></div>
+            </p>
+            <p>
+                <div>Icons made by <a href="https://www.flaticon.com/authors/adib-sulthon"
+                        title="Adib Sulthon">Adib Sulthon</a> from <a href="https://www.flaticon.com/"
+                        title="Flaticon">www.flaticon.com</a></div>
+            </p>
+            <p>
+                <div>Icons made by <a href="https://www.flaticon.com/authors/freepik"
+                        title="Freepik">Freepik</a>
+                    from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+            </p>
+        </div>
+    </div>
+    <script>
+        function validateForm() {
+            var playerName = document.forms["registerPlayerForm"]["playerName"].value;
+            if (playerName == "") {
+                alert("Name must be filled out");
+                return false;
+            }
+            
+            localStorage.setItem('currentPlayerName', playerName)
+        }</script>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+.playable-screen{
+    width: 100%;
+    text-align: center;
+    background-color: #1c1c1b;
+}
+.game-menu{
+    color:white;
+    text-align: center;
+    width: 100%;
+    text-align: center;
+    background-color: #1c1c1b;
+}
+.game-menu-screen{
+    display: inline-block;
+    width: 576px;
+    height: 864px;
+    background-image: url('assets/images/pages_background.png'); 
+}
+
+.button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#credits-section{
+    padding-top: 530px;
+}
+#credits-section a{
+    color: #ffef31;
+}
