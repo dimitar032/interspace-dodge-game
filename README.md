@@ -1,6 +1,6 @@
 # 🚀 Interspace Dodge Game
 
-Interspace Dodge Game is a fast-paced, space-themed dodge game built entirely with vanilla JavaScript, HTML, and CSS. Created as a personal learning project in 2020, this game was a fun and immersive way to dive deeper into JavaScript fundamentals, DOM manipulation, and basic game development logic.
+Interspace Dodge Game is a fast-paced, space-themed dodge game built with vanilla JavaScript, Phaser framework, HTML, and CSS. Created as a personal learning project in 2020, this game was a fun and immersive way to dive deeper into JavaScript fundamentals, DOM manipulation, and basic game development logic.
 
 ## 🎮 Gameplay
 
@@ -18,3 +18,9 @@ This project was completed as a solo learning endeavor over a couple of weeks in
 
 ## Note
 Scoreboards are saved in browser session, so they will not be kept.
+
+## Credits
+Icons are made by:
+- ![icons](https://www.flaticon.com/authors/smashicons)
+- ![icons](https://www.flaticon.com/authors/adib-sulthon)
+- ![icons](https://www.flaticon.com/authors/freepik)
