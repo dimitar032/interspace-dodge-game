@@ -17,7 +17,7 @@ This project was completed as a solo learning endeavor over a couple of weeks in
 
 
 ## Note
-Scoreboards are saved in browser session, so they will not be kept.
+Scoreboard results are saved in browser as cookies.
 
 ## Credits
 Icons are made by:
